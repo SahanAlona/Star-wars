@@ -1,0 +1,19 @@
+.nav-button {
+    display: inline-block;
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 7px 15px;
+    border: 1px solid #ffdb00;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.nav-button:hover,
+.nav-button.active {
+    background-color: #ffdb00;
+    color: #fff;
+}
+.nav-button:nth-of-type(2) {
+    margin-left: 5px;
+    margin-right: 5px;
+}
