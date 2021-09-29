@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './../Navbar/Navbar';
 import Main from './../Main/Main';
 import { BASE_IMAGES_URL, fetchDataByCategoryName } from '../../services/service';
-
+console.log(React.version);
 class App extends Component {
     constructor(props) {
         super(props);
